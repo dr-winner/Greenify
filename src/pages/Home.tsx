@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Plane as Plant, ShoppingBag, Truck, Warehouse } from 'lucide-react';
+import { Plane as Leaf, ShoppingBag, Truck, Warehouse } from 'lucide-react';
 
 const Home = () => {
   return (
@@ -28,7 +28,7 @@ const Home = () => {
         </h2>
         <div className="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
           <Feature
-            icon={<Plant className="h-8 w-8" />}
+            icon={<Leaf className="h-8 w-8" />}
             title="Direct Marketplace"
             description="Connect directly with farmers and buyers for the freshest produce"
           />
